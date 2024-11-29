@@ -9,7 +9,7 @@ public class Main {
         if (n >= 80) {
             System.out.println("pass");
         } else {
-            n = 100 - n;
+            n = 80 - n;
             System.out.printf("%d more score", n);
         }
     }
