@@ -6,9 +6,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int money = sc.nextInt();
 
-        if (money == 3000) {
+        if (money >= 3000) {
             System.out.println("book");
-        } else if (money == 1000) {
+        } else if (money >  = 1000) {
             System.out.println("mask");
         } else {
             System.out.println("no");
