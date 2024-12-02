@@ -8,7 +8,7 @@ public class Main {
 
         if (money >= 3000) {
             System.out.println("book");
-        } else if (money >  = 1000) {
+        } else if (money >= 1000) {
             System.out.println("mask");
         } else {
             System.out.println("no");
