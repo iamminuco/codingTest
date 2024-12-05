@@ -10,7 +10,7 @@ public class Main {
         int bMath = sc.nextInt();
         int bEnglish = sc.nextInt();
 
-        if (aMath > bMath || bEnglish > bEnglish ) {
+        if (aMath > bMath && aEnglish > bEnglish ) {
             System.out.println(1);
         } else {
             System.out.println(0);
