@@ -7,7 +7,7 @@ public class Main {
 
         int m = sc.nextInt();
 
-        if (m == 12 && m <= 2) {
+        if (m == 12 || m <= 2) {
             System.out.println("Winter");
         } else if ( m >= 9 ) {
             System.out.println("Fall");
