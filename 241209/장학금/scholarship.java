@@ -13,6 +13,8 @@ public class Main {
               System.out.println("100000");
             } else if (last >= 90) {
               System.out.println("50000");
+            } else {
+                System.out.println("0");
             }
         } else {
             System.out.println("0");
