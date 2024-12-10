@@ -9,27 +9,32 @@ public class Main {
         int c = sc.nextInt();
         int[] arr = {a, b, c};
         
-        int min = arr[0];
+        // 1번
+    //     int min = arr[0];
 
-        for(int i = 0; i < arr.length; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-        }
+    //     for(int i = 0; i < arr.length; i++) {
+    //         if (arr[i] < min) {
+    //             min = arr[i];
+    //         }
+    //     }
 
-        int[] new_arr = new int[arr.length - 1];
-        for(int i = 0, j = 0; i < arr.length; i++) {
-            if (arr[i] != min) {
-                new_arr[j++] = arr[i];
-            }
-        }
+    //     int[] new_arr = new int[arr.length - 1];
+    //     for(int i = 0, j = 0; i < arr.length; i++) {
+    //         if (arr[i] != min) {
+    //             new_arr[j++] = arr[i];
+    //         }
+    //     }
         
-        int mid = new_arr[0];
-        for(int i = 0; i < new_arr.length; i++) {
-            if (new_arr[i] < mid) {
-                mid = new_arr[i];
-            }
-        }
-        System.out.println(mid);
+    //     int mid = new_arr[0];
+    //     for(int i = 0; i < new_arr.length; i++) {
+    //         if (new_arr[i] < mid) {
+    //             mid = new_arr[i];
+    //         }
+    //     }
+    //     System.out.println(mid);
+    
+        Arrays.sort(arr);
+
+        System.out.println(arr[1]);
     }
 }
