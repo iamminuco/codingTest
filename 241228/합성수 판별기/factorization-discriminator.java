@@ -7,22 +7,19 @@ public class Main {
 
         int n = sc.nextInt();
         boolean ishab = false;
-        char s = ' ';
 
-        for(int i = 1; i < n; i++) {
+        for(int i = 2; i < n; i++) {
 
             if(n % i == 0) {
-                s = 'C';
-            } else {
-                s = 'N';
-            }
+               ishab = true;
+            } 
 
         }
         
-        if (s == 'C') {
-            System.out.println(s);
+        if (ishab) {
+            System.out.println("C");
         } else {
-            System.out.println(s);
+            System.out.println("N");
         }
         
     }
