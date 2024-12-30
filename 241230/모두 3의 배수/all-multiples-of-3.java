@@ -7,21 +7,23 @@ public class Main {
 
         int n;
         int prod = 1;
-        boolean isSide = false;
+        boolean isSide = true;
 
-        for(int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) {
             n = sc.nextInt();
 
-            prod *= 3;
-
-            if(n % prod == 0) {
-                isSide = true;
+            if (n % 3 != 0) {
+                isSide = false;
+                break;
             }
         }
-        if (isSide) {
+
+        if(isSide) {
             System.out.println(1);
         } else {
             System.out.println(0);
         }
+
+
     }
 }
