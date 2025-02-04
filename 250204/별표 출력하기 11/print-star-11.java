@@ -12,7 +12,7 @@ public class Main {
                 if (i % 2 == 0) {
                     System.out.print("* ");
                 } else {
-                    if ( j == 0 || j == 2 || j == 4 || j == 6) {
+                    if (j % 2 == 0) {
                     System.out.print("*   ");
                     }
 
