@@ -10,19 +10,9 @@ public class Main {
 
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
+                System.out.print(cnt);
+                cnt = (cnt % 9)+ 1;
 
-                if (i < 2 ) {
-                    System.out.print(cnt);
-                    cnt++;
-                } else {
-                    if (cnt == 9) {
-                        System.out.print(cnt);
-                        cnt = 1;
-                    } else {
-                        System.out.print(cnt);
-                        cnt++;
-                    }
-                }
             }
             System.out.println();
         }
