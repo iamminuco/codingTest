@@ -14,7 +14,7 @@ public class Main {
 
         
         for(int i = 2; i <= n*m; i+=2) {
-            for(int j = 4; j > 1 ; j--) {
+            for(int j = m; j >= 2 ; j--) {
                 System.out.print(j+" * "+i +" = "+i*j);
             if(j > 2) {
                 System.out.print(" / ");
