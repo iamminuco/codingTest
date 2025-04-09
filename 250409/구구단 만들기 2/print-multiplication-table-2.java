@@ -13,12 +13,12 @@ public class Main {
 
 
         
-        for(int i = 2; i <= n*m; i+=2) {
-            for(int j = m; j >= 2 ; j--) {
-                System.out.print(j+" * "+i +" = "+i*j);
-            if(j > 2) {
-                System.out.print(" / ");
-            }
+        for(int j = 2; j <= 8; j+=2) {
+            for(int i = m; i >= n ; i--) {
+                System.out.print(i+" * "+j +" = "+i*j);
+                if(i > n) {
+                    System.out.print(" / ");
+                }
             }
             
             System.out.println();
